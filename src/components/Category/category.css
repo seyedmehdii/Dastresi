@@ -1,0 +1,25 @@
+.myCategorySwiper .swiper-slide {
+  text-align: center;
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myCategorySwiper .swiper-button-next,
+.myCategorySwiper .swiper-button-prev {
+  background: white !important; /* دایره سفید */
+  color: #000 !important; /* رنگ فلش مشکی */
+  border-radius: 50%; /* دایره‌ای شدن */
+  width: 40px; /* اندازه دکمه */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* سایه ملایم */
+}
+.myCategorySwiper .swiper-button-next svg,
+.myCategorySwiper .swiper-button-prev svg {
+  width: 14px;
+  height: 14px;
+}

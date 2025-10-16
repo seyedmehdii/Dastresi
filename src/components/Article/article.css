@@ -1,0 +1,31 @@
+.articlesSwiper {
+  position: relative;
+  padding-bottom: 60px; /* فضای pagination */
+}
+
+.articlesSwiper .swiper-pagination {
+  bottom: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.articlesSwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  opacity: 1;
+  margin: 0 6px !important;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+.articlesSwiper .swiper-pagination-bullet-active {
+  background: black;
+}
+
+.articlesSwiper .swiper-slide {
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

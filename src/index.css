@@ -1,0 +1,10 @@
+@font-face {
+  font-family: karim;
+  src: url(/Webfonts/fonts/woff2/IRANSansX-Medium.woff2);
+}
+@import "tailwindcss";
+@plugin "daisyui";
+@custom-variant dark (&:where(.dark, .dark *));
+* {
+  font-family: karim;
+}

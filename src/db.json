@@ -1,0 +1,938 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "خانه",
+      "link": "/home",
+      "submenu": []
+    },
+    {
+      "id": 2,
+      "name": "لوازم جانبی موبایل و کامپیوتر",
+      "link": "/mobile",
+      "submenu": [
+        {
+          "id": 21,
+          "name": "ماوس و کیبورد و پدموس",
+          "link": "/mobile/mouse",
+          "submenuu": []
+        },
+        {
+          "id": 22,
+          "name": "اسپیکر",
+          "link": "/mobile/speaker",
+          "submenuu": []
+        },
+        {
+          "id": 23,
+          "name": "تجهیزات ذخیره سازی",
+          "link": "/mobile/storage",
+          "submenuu": [
+            { "id": 231, "name": "فلش مموری", "link": "/mobile/storage/flash" },
+            {
+              "id": 232,
+              "name": "کارت حافظه",
+              "link": "/mobile/storage/memory"
+            },
+            {
+              "id": 233,
+              "name": "هارد اکسترنال",
+              "link": "/mobile/storage/hard"
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "هولدر و نگه دارنده",
+          "link": "/mobile/holder",
+          "submenuu": []
+        },
+        {
+          "id": 25,
+          "name": "کابل شارژ",
+          "link": "/mobile/cable",
+          "submenuu": [
+            {
+              "id": 251,
+              "name": "کابل شارژ میکرو یو اس پی",
+              "link": "/mobile/cable/usp"
+            },
+            {
+              "id": 252,
+              "name": "کایل شارژ تایپ سی",
+              "link": "/mobile/cable/typec"
+            },
+            {
+              "id": 253,
+              "name": "کابل شارژ لایتنینگ",
+              "link": "/mobile/cable/lightening"
+            },
+            {
+              "id": 254,
+              "name": "کابل شارژ دوسر تایپ سی",
+              "link": "/mobile/cable/dtypec"
+            },
+            {
+              "id": 255,
+              "name": "کابل شارژ تایپ سی به لایتنینگ",
+              "link": "/mobile/cable/typectoli"
+            },
+            {
+              "id": 256,
+              "name": "کابل شارژ سه کاره",
+              "link": "/mobile/cable/3works"
+            },
+            {
+              "id": 257,
+              "name": "کابل شارژ سامسونگ",
+              "link": "/mobile/cable/samsung"
+            },
+            {
+              "id": 258,
+              "name": "کابل شارژ آیفون",
+              "link": "/mobile/cable/iphone"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "آداپتور و شارژر",
+          "link": "/mobile/adaptor",
+          "submenuu": [
+            {
+              "id": 26,
+              "name": "شارژر دیواری",
+              "link": "/mobile/adaptor/wall"
+            },
+            {
+              "id": 26,
+              "name": "شارژر وایرلس",
+              "link": "/mobile/adaptor/wireless"
+            },
+            {
+              "id": 26,
+              "name": "شارژر رومیزی",
+              "link": "/mobile/adaptor/table"
+            },
+            {
+              "id": 26,
+              "name": "شارژر فندکی",
+              "link": "/mobile/adaptor/light"
+            },
+            {
+              "id": 26,
+              "name": "شارژر سامسونگ",
+              "link": "/mobile/adaptor/samsung"
+            },
+            {
+              "id": 26,
+              "name": "شارژر آیفون",
+              "link": "/mobile/adaptor/iphone"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "هندزفری و هدست",
+          "link": "/mobile/hadnsfree",
+          "submenuu": [
+            {
+              "id": 271,
+              "name": "میکروفون",
+              "link": "/moblile/handsfree/mick"
+            },
+            {
+              "id": 272,
+              "name": "هندزفری سیم دار",
+              "link": "/moblile/handsfree/wire"
+            },
+            {
+              "id": 273,
+              "name": "هدست سیم دار",
+              "link": "/moblile/handsfree/headset"
+            },
+            {
+              "id": 274,
+              "name": "هدفون بلوتوث",
+              "link": "/moblile/handsfree/headphone"
+            },
+            {
+              "id": 275,
+              "name": "هندزفری بلوتوث دو گوش",
+              "link": "/moblile/handsfree/2ears"
+            },
+            {
+              "id": 276,
+              "name": "هندزفری بلوتوث دورگردنی",
+              "link": "/moblile/handsfree/bluethooth"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "پاوربانک و جامپ استارتر",
+          "link": "/mobile/powerbank",
+          "submenuu": []
+        },
+        {
+          "id": 29,
+          "name": "دسته بازی و خنک کننده موبایل",
+          "link": "/mobile/cooler",
+          "submenuu": []
+        },
+        {
+          "id": 210,
+          "name": "انواع تبدیل برق",
+          "link": "/mobile/transform",
+          "submenuu": []
+        },
+        {
+          "id": 211,
+          "name": "کابل و دانگل انتقال تصویر",
+          "link": "/mobile/trasnformimage",
+          "submenuu": []
+        },
+        {
+          "id": 212,
+          "name": "انواع هاب",
+          "link": "/mobile/hub",
+          "submenuu": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "کابل-مبدل-رابط",
+      "link": "/cabel",
+      "submenu": [
+        {
+          "id": 31,
+          "name": "کابل HDMI",
+          "link": "/cabel/hdmi",
+          "submenuu": []
+        },
+        {
+          "id": 32,
+          "name": "کابل پرینتر",
+          "link": "/cabel/printer",
+          "submenuu": []
+        },
+        {
+          "id": 33,
+          "name": "کابل هارد اکسترنال",
+          "link": "/cabel/hard",
+          "submenuu": []
+        },
+        {
+          "id": 34,
+          "name": "انواع رابط و تبدیل",
+          "link": "/cabel/rabet",
+          "submenuu": []
+        },
+        { "id": 35, "name": "کابل AUX", "link": "/cabel/aux", "submenuu": [] },
+        {
+          "id": 36,
+          "name": "کابل 2 به 1 صدا",
+          "link": "/cabel/2to1",
+          "submenuu": []
+        },
+        {
+          "id": 37,
+          "name": "کابل اپتیکال",
+          "link": "/cabel/optical",
+          "submenuu": []
+        },
+        {
+          "id": 38,
+          "name": "کابل و فیش OTG",
+          "link": "/cabel/otg",
+          "submenuu": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "لوازم تولید محتوا",
+      "link": "/produce",
+      "submenu": [
+        {
+          "id": 41,
+          "name": "میکروفون",
+          "link": "/produce/mick",
+          "submenuu": []
+        },
+        {
+          "id": 42,
+          "name": "رینگ لایت و پایه",
+          "link": "/produce/ring",
+          "submenuu": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "لوازم شبکه",
+      "link": "/net",
+      "submenu": [
+        { "id": 5, "name": "مودم روتر", "link": "/net/router", "submenuu": [] },
+        { "id": 5, "name": "هاب شبکه", "link": "/net/hub", "submenuu": [] },
+        {
+          "id": 5,
+          "name": "مودم همراه",
+          "link": "/net/hamrah",
+          "submenuu": []
+        },
+        {
+          "id": 5,
+          "name": "لوازم جانبی",
+          "link": "/net/janebi",
+          "submenuu": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "کنسول بازی و لوازم جانبی",
+      "link": "/console",
+      "submenu": [
+        { "id": 6, "name": "کیف", "link": "/console/bag", "submenuu": [] },
+        {
+          "id": 6,
+          "name": "کنسول",
+          "link": "/console/console",
+          "submenuu": []
+        },
+        {
+          "id": 6,
+          "name": "موس و کیبورد",
+          "link": "/console/mouse",
+          "submenuu": []
+        },
+        {
+          "id": 6,
+          "name": "دسته بازی",
+          "link": "/console/dasteh",
+          "submenuu": []
+        },
+        {
+          "id": 6,
+          "name": "هندزفری و هدست",
+          "link": "/console/headset",
+          "submenuu": []
+        },
+        {
+          "id": 6,
+          "name": "شارژر دسته بازی",
+          "link": "/console/adaptor",
+          "submenuu": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "لوازم خانگی و شخصی",
+      "link": "/products",
+      "submenu": [
+        {
+          "id": 7,
+          "name": "انواع گجت های جذاب",
+          "link": "/products/gadget",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "باتری و شارژر",
+          "link": "/products/battery",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "اندروید باکس و گیرنده دیجیتال",
+          "link": "/products/box",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "آنتن رومیزی",
+          "link": "/products/anten",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "مچ بند و ساعت هوشمند",
+          "link": "/products/watch",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "محصولات کمبو",
+          "link": "/products/cambo",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "رابط برق و USB",
+          "link": "/products/usb",
+          "submenuu": []
+        },
+        {
+          "id": 7,
+          "name": "اف ام پلیر",
+          "link": "/products/fm",
+          "submenuu": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "برندها",
+      "link": "/brands",
+      "type": "brands",
+      "submenu": [
+        {
+          "id": 81,
+          "name_fa": "هایلو",
+          "name_en": "Haylou",
+          "link": "/brands/Haylou",
+          "submenu": []
+        },
+        {
+          "id": 82,
+          "name_fa": "دای هارد",
+          "name_en": "Die Hard",
+          "link": "/brands/DieHard",
+          "submenu": []
+        },
+        {
+          "id": 83,
+          "name_fa": "اسکال کندی",
+          "name_en": "SkullCandy",
+          "link": "/brands/SkullCandy",
+          "submenu": []
+        },
+        {
+          "id": 84,
+          "name_fa": "اپل",
+          "name_en": "Apple",
+          "link": "/brands/Apple",
+          "submenu": []
+        },
+        {
+          "id": 85,
+          "name_fa": "کملیون",
+          "name_en": "Camelion",
+          "link": "/brands/Camelion",
+          "submenu": []
+        },
+        {
+          "id": 86,
+          "name_fa": "کلومن پلاس",
+          "name_en": "Koluman Plus",
+          "link": "/brands/Koluman",
+          "submenu": []
+        },
+        {
+          "id": 87,
+          "name_fa": "یسیدو",
+          "name_en": "yesido",
+          "link": "/brands/yesido",
+          "submenu": []
+        },
+        {
+          "id": 88,
+          "name_fa": "نزتک",
+          "name_en": "Naztech",
+          "link": "/brands/Naztech",
+          "submenu": []
+        },
+        {
+          "id": 89,
+          "name_fa": "پرووان",
+          "name_en": "ProOne",
+          "link": "/brands/ProOne",
+          "submenu": []
+        },
+        {
+          "id": 810,
+          "name_fa": "ال دی نیو",
+          "name_en": "Ldnio",
+          "link": "/brands/Ldnio",
+          "submenu": []
+        },
+        {
+          "id": 811,
+          "name_fa": "دوراسل",
+          "name_en": "Duracell",
+          "link": "/brands/Duracell",
+          "submenu": []
+        },
+        {
+          "id": 812,
+          "name_fa": "سومو",
+          "name_en": "Somo",
+          "link": "/brands/Somo",
+          "submenu": []
+        },
+        {
+          "id": 813,
+          "name_fa": "بیسوس",
+          "name_en": "Baseus",
+          "link": "/brands/Baseus",
+          "submenu": []
+        },
+        {
+          "id": 814,
+          "name_fa": "بویا",
+          "name_en": "Boya",
+          "link": "/brands/Boya",
+          "submenu": []
+        },
+        {
+          "id": 815,
+          "name_fa": "مک دودو",
+          "name_en": "Mcdodo",
+          "link": "/brands/Mcdodo",
+          "submenu": []
+        },
+        {
+          "id": 816,
+          "name_fa": "پاورولوژی",
+          "name_en": "Powerology",
+          "link": "/brands/Powerology",
+          "submenu": []
+        },
+        {
+          "id": 817,
+          "name_fa": "راوپاور",
+          "name_en": "Ravpower",
+          "link": "/brands/Ravpower",
+          "submenu": []
+        },
+        {
+          "id": 818,
+          "name_fa": "آکی",
+          "name_en": "Aukey",
+          "link": "/brands/Aukey",
+          "submenu": []
+        },
+        {
+          "id": 819,
+          "name_fa": "انکر",
+          "name_en": "Anker",
+          "link": "/brands/Anker",
+          "submenu": []
+        },
+        {
+          "id": 820,
+          "name_fa": "آینوبن",
+          "name_en": "inoben",
+          "link": "/brands/inoben",
+          "submenu": []
+        },
+        {
+          "id": 821,
+          "name_fa": "مومکس",
+          "name_en": "Momax",
+          "link": "/brands/Momax",
+          "submenu": []
+        },
+        {
+          "id": 822,
+          "name_fa": "وسترن دیجیتال",
+          "name_en": "Western Digital",
+          "link": "/brands/Western",
+          "submenu": []
+        },
+        {
+          "id": 823,
+          "name_fa": "شیائومی",
+          "name_en": "Xiaomi",
+          "link": "/brands/Xiaomi",
+          "submenu": []
+        },
+        {
+          "id": 824,
+          "name_fa": "پاناسونیک",
+          "name_en": "Panasonic",
+          "link": "/brands/Panasonic",
+          "submenu": []
+        },
+        {
+          "id": 825,
+          "name_fa": "نیکین",
+          "name_en": "Neekin",
+          "link": "/brands/Neekin",
+          "submenu": []
+        },
+        {
+          "id": 826,
+          "name_fa": "پایونیر",
+          "name_en": "pioneer",
+          "link": "/brands/pioneer",
+          "submenu": []
+        },
+        {
+          "id": 827,
+          "name_fa": "جی پی",
+          "name_en": "GP",
+          "link": "/brands/GP",
+          "submenu": []
+        },
+        {
+          "id": 828,
+          "name_fa": "ای فورتک",
+          "name_en": "A4tech",
+          "link": "/brands/A4tech",
+          "submenu": []
+        },
+        {
+          "id": 829,
+          "name_fa": "وان مور",
+          "name_en": "1more",
+          "link": "/brands/1more",
+          "submenu": []
+        },
+        {
+          "id": 830,
+          "name_fa": "مکسل",
+          "name_en": "Maxell",
+          "link": "/brands/Maxell",
+          "submenu": []
+        }
+      ]
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/12/24/banner-dastresi-1%20(1).png",
+      "alt": "اسلایدر سوم new"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/12/24/banner-dastresi-2-min.png",
+      "alt": "اسلایدر اول new"
+    },
+    {
+      "id": 3,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/12/24/banner-dastresi-4-min.png",
+      "alt": "اسلایدر دوم new"
+    }
+  ],
+  "takhfif": [
+    {
+      "id": 1,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/09/07/MASA-POWEROLOGY-1.jpg",
+      "title": "ماساژور ULTRA-MINI پاورولوژی مدل Powerology SM011",
+      "price": " 3,250,000 ",
+      "takhfif": "255,000",
+      "finalprice": "2,995,000",
+      "timerHours": 19,
+      "link": "/powerlogy_massage"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/08/02/anker-2698-11.jpg",
+      "title": " شارژر دیواری 30 واتی Zolo انکر مدل Anker A2698",
+      "price": " 1,150,000",
+      "takhfif": "200,000",
+      "finalprice": "950,000",
+      "timerHours": 19,
+      "link": "/zolo"
+    },
+    {
+      "id": 3,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/07/03/MCDODO-422-11.jpg",
+      "title": "پاوربانک 10000 میلی آمپر 22.5 واتی مک دودو مدل Mcdodo MC-4220",
+      "price": "1,597,000",
+      "takhfif": "200,000",
+      "finalprice": "1,397,000",
+      "timerHours": 19,
+      "link": "/mac"
+    },
+    {
+      "id": 4,
+      "image": "https://www.dastresi.com/upload/filemanager/2024/04/03/PPCHA34-11.jpg",
+      "title": "پاوربانک 10000 میلی آمپری 20 واتی وایرلس شارژ مگ سیف پاورولوژی مدل Ppbcha34",
+      "price": "2,175,000",
+      "takhfif": "200,000",
+      "finalprice": "1,975,000",
+      "timerHours": 19,
+      "link": "/mag"
+    },
+    {
+      "id": 5,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/11/29/PowerologyPHDMRABK-1.jpg",
+      "title": "فرستنده HDMI بی سیم پاورولوژی مدل Powerlogy Phdmrabk",
+      "price": "5,197,000",
+      "takhfif": "200,000",
+      "finalprice": "4,997,000",
+      "timerHours": 19,
+      "link": "/power-hdmi"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/cable.png",
+      "alt": "کابل شارژ",
+      "link": "/chargecable"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/adaptor.png",
+      "alt": "آداپتور و شارژر",
+      "link": "/adaptor"
+    },
+    {
+      "id": 3,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/powerbank.png",
+      "alt": "پاوربانک و جامپ استارتر",
+      "link": "/powerbank"
+    },
+    {
+      "id": 4,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/handsfree.png",
+      "alt": "هندزفری و هدست، میکروفون",
+      "link": "/handsfree"
+    },
+    {
+      "id": 5,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/Holder%20Negahdarande.png",
+      "alt": "هولدر و نگهدارنده",
+      "link": "/holder"
+    },
+    {
+      "id": 6,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/mobadel%20o%20rabet.png",
+      "alt": "کابل - مبدل - رابط ",
+      "link": "/mobadel"
+    },
+    {
+      "id": 7,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/battery.png",
+      "alt": "باتری و شارژر",
+      "link": "/battery"
+    },
+    {
+      "id": 8,
+      "image": "https://www.dastresi.com/upload/filemanager/2023/04/20/gaming.png",
+      "alt": "کنسول بازی و لوازم جانبی",
+      "link": "/gaming"
+    }
+  ],
+  "now": [
+    {
+      "id": 1,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/04/16/MASSAGE-BALL-11.jpg",
+      "title": "انواع گجت های جذاب",
+      "body": "توپ ماساژور برند قوی",
+      "link": "/massageball",
+      "price": "2,399,765",
+      "finalprice": "",
+      "not": "ناموجود"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/04/16/juser-green7-11.jpg",
+      "title": "لوازم خانگی و شخصی",
+      "body": "جویسر با ضمانت نامه کتبی",
+      "link": "/juicer",
+      "price": "4,656,644",
+      "finalprice": "2,543,976",
+      "not": ""
+    },
+    {
+      "id": 3,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/04/12/POMP-GREEN-11.jpg",
+      "title": "انواع گجت های جذاب",
+      "body": "پمپ باد گرین INFLATOR",
+      "link": "/pomp",
+      "price": "1,532,875",
+      "finalprice": "",
+      "not": "ناموجود"
+    },
+    {
+      "id": 4,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/04/10/SE3338-11.jpg",
+      "title": "رابط برق و USB",
+      "body": "رابط برق و USB",
+      "link": "/usb",
+      "price": "900,976",
+      "finalprice": "",
+      "not": ""
+    },
+    {
+      "id": 5,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/04/05/Q4010-11.jpg",
+      "title": "شارژر رومیزی",
+      "body": "شارژر رومیزی 25 وات هاردون",
+      "link": "/charger",
+      "price": "234,864",
+      "finalprice": "123,098",
+      "not": ""
+    },
+    {
+      "id": 6,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/01/15/JETFAN-11.jpg",
+      "title": "انواع گجت های جذاب",
+      "body": "جت فن جذاب از سایت ما",
+      "link": "/jetfan",
+      "price": "2,876,987",
+      "finalprice": "",
+      "not": "ناموجود"
+    },
+    {
+      "id": 7,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/01/13/ORAIMO725-11.jpg",
+      "title": "پاوربانک و جامپ استارتر",
+      "body": "شارژر دیواری 25 وات هارتون",
+      "link": "/powerbankjump",
+      "price": "324,754",
+      "finalprice": "",
+      "not": ""
+    },
+    {
+      "id": 8,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/01/12/ANKER2348-11.jpg",
+      "title": "شارژر دیواری",
+      "body": "شاارژر دیواری گان",
+      "link": "/chargerwall",
+      "price": "432,876",
+      "finalprice": "",
+      "not": ""
+    },
+    {
+      "id": 9,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/01/11/50GREEN-11.jpg",
+      "title": "پاوربانک و جامپ استارتر",
+      "body": "پاوربانک جذاب با قدرت 25 ولت",
+      "link": "/powerbjump",
+      "price": "643,876",
+      "finalprice": "",
+      "not": ""
+    },
+    {
+      "id": 10,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/01/11/MCDODO-2010-11.jpg",
+      "title": " کابل شارژ تایپ c  ",
+      "body": "کابل شارژ تایپ c با ضمانت",
+      "link": "/cabletC",
+      "price": "123,643",
+      "finalprice": "",
+      "not": ""
+    },
+    {
+      "id": 11,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/04/17/POWEROLOGY-PPCHA77-11.jpg",
+      "title": "پاوربانک و جامپ استارتر",
+      "body": "پاوربانک جذاب با قدرت 25 ولت",
+      "link": "/powerbajump",
+      "price": "785,000",
+      "finalprice": "550,555",
+      "not": ""
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "image": "https://www.dastresi.com/upload/filemanager/2022/02/24/logo-1.jpg",
+      "alt": "انکر",
+      "link": "/anker"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dastresi.com/upload/filemanager/2022/02/22/inoben.jpg",
+      "alt": "آینوبن",
+      "link": "/inoben"
+    },
+    {
+      "id": 3,
+      "image": "https://www.dastresi.com/upload/filemanager/2022/02/24/Untitled-159.jpg",
+      "alt": "راوپاور",
+      "link": "/ravpower"
+    },
+    {
+      "id": 4,
+      "image": "https://www.dastresi.com/upload/filemanager/2022/02/26/H64c19886758b40378c31d5f46c5ae984A.jpg",
+      "alt": "مک دودو",
+      "link": "/mcdodo"
+    },
+    {
+      "id": 5,
+      "image": "https://www.dastresi.com/upload/filemanager/2022/03/07/logp.jpg",
+      "alt": "کملیون",
+      "link": "/camelion"
+    },
+    {
+      "id": 6,
+      "image": "https://www.dastresi.com/upload/filemanager/2022/03/17/logo.jpg",
+      "alt": "پاورولوژی",
+      "link": "/powerlogy"
+    },
+    {
+      "id": 7,
+      "image": "https://www.dastresi.com/upload/filemanager/2024/11/21/Untitled-1.jpg",
+      "alt": "ایس فست",
+      "link": "/acefast"
+    }
+  ],
+  "article": [
+    {
+      "id": 1,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/07/31/Why-iPhone-is-not-charging-%20dastresiArtboard%201%20copy.jpg",
+      "alt": " چیست؟",
+      "body": "چرا آیفون من شارژ نمی‌شود؟ راهنمای رفع مشکل",
+      "link": "/why-not-charging"
+    },
+    {
+      "id": 2,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/07/15/what-is-mfi-apple-dastresi-Artboard%201%20copy%203.jpg",
+      "alt": " چیست؟",
+      "body": "کابل MFi چیست؟ : ناجی باتری آیفون شما یا یک حقه تبلیغات...",
+      "link": "/mfi-apple"
+    },
+    {
+      "id": 3,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/07/13/wireless-charging-vs-charger-dastresiArtboard%201.jpg",
+      "alt": "شارژ بی‌ سیم در برابر شارژ با کابل: کدام یک برای آیفون شما بهتر است؟",
+      "body": "شارژ بی‌ سیم در برابر شارژ با کابل: کدام یک برای آیفون ...",
+      "link": "/wireless-charging"
+    },
+    {
+      "id": 4,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/05/18/iphone-cable-charger-dastresiArtboard%201.jpg",
+      "alt": "بهترین کابل شارژ برای آیفون: راهنمای کامل انتخاب در ۵ دقیقه!",
+      "body": "بهترین کابل شارژ برای آیفون: راهنمای کامل انتخاب در ۵ د...",
+      "link": "/iphone-cable"
+    },
+    {
+      "id": 5,
+      "image": "https://www.dastresi.com/upload/filemanager/2025/01/25/wired-handsfree-phone-dastresi-.jpg",
+      "alt": "خرید بهترین هندزفری سیمی تا ۵۰۰ تومان",
+      "body": "خرید بهترین هندزفری سیمی تا ۵۰۰ تومان",
+      "link": "/buy-the-best-handsfree"
+    },
+    {
+      "id": 6,
+      "image": "https://www.dastresi.com/upload/filemanager/2024/12/30/best-smelling-microphone-dastresi-Artboard%201%20copy%202%20(1).jpg",
+      "alt": "بهترین مدل های میکروفون بویا",
+      "body": "معرفی ۵ مدل از بهترین میکروفون بویا",
+      "link": "/best-mick"
+    },
+    {
+      "id": 7,
+      "image": "https://www.dastresi.com/upload/filemanager/2024/12/24/Microphone-under-1-millionArtboard%201%20(1).jpg",
+      "alt": "راهنمای خرید پاوربانک تا ۱۰ میلیون تومان",
+      "body": "راهنمای خرید بهترین میکروفون زیر ۱ میلیون تومان",
+      "link": "/mic-under-1-milllion"
+    },
+    {
+      "id": 8,
+      "image": "https://www.dastresi.com/upload/filemanager/2024/11/03/ssd-external-dastresi-Artboard%201%20copy%203.jpg",
+      "alt": "بهترین هارد اکسترنال ssd",
+      "body": "بهترین هارد اکسترنال SSD: سرعت و امنیت در کنار هم!",
+      "link": "/best-external-ssd"
+    }
+  ]
+}
