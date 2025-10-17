@@ -7,11 +7,11 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/src/assets/icons/logo-192x192.png",
+      "src": "/logoicon-192x192.png",
       "sizes": "192x192"
     },
     {
-      "src": "/src/assets/icons/logo-512x512.png",
+      "src": "/logoicon-512x512.png",
       "sizes": "512x512"
     }
   ],
@@ -19,14 +19,14 @@
   "id": "/",
   "screenshots": [
     {
-      "src": "src/assets/screenshots/1.png",
+      "src": "/1.png",
       "sizes": "320x320",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "صفحه اصلی وب‌سایت"
     },
     {
-      "src": "src/assets/screenshots/2.png",
+      "src": "/2.png",
       "sizes": "700x700",
       "type": "image/png",
       "form_factor": "wide",
