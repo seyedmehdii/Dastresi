@@ -1,10 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchMenu = createAsyncThunk("/menu/fetchMenu", async () => {
   const data = await fetch(
-    "https://my-json-server.typicode.com/seyedmehdii/myData/menu"
+    "https://raw.githubusercontent.com/seyedmehdii/myData/main/db.json"
   );
   const res = await data.json();
-  return res;
+  return res.menu;
 });
 
 const MenuSlice = createSlice({

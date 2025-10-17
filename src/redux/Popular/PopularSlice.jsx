@@ -3,10 +3,10 @@ export const fetchPopular = createAsyncThunk(
   "/popular/fetchPopular",
   async () => {
     const data = await fetch(
-      "https://my-json-server.typicode.com/seyedmehdii/myData/popular"
+      "https://raw.githubusercontent.com/seyedmehdii/myData/main/db.json"
     );
     const res = await data.json();
-    return res;
+    return res.popular;
   }
 );
 

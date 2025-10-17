@@ -3,10 +3,10 @@ export const fetchBestsell = createAsyncThunk(
   "/Bestsell/fetchBestsell",
   async () => {
     const data = await fetch(
-      "https://my-json-server.typicode.com/seyedmehdii/myData/now"
+      "https://raw.githubusercontent.com/seyedmehdii/myData/main/db.json"
     );
     const res = await data.json();
-    return res;
+    return res.now;
   }
 );
 
