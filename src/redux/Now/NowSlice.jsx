@@ -1,6 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchNow = createAsyncThunk("/now/fetchNow", async () => {
-  const data = await fetch("http://localhost:3000/now");
+  const data = await fetch(
+    "https://my-json-server.typicode.com/seyedmehdii/myData/now"
+  );
   const res = await data.json();
   return res;
 });

@@ -1,6 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchMenu = createAsyncThunk("/menu/fetchMenu", async () => {
-  const data = await fetch("http://localhost:3000/menu");
+  const data = await fetch(
+    "https://my-json-server.typicode.com/seyedmehdii/myData/menu"
+  );
   const res = await data.json();
   return res;
 });
@@ -23,4 +25,4 @@ const MenuSlice = createSlice({
       });
   },
 });
-export default MenuSlice.reducer
+export default MenuSlice.reducer;

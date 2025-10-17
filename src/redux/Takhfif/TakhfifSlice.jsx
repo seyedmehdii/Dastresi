@@ -1,9 +1,14 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-export const fetchTakhfif = createAsyncThunk("/takhfif/fetchTakhfif", async () => {
-  const data = await fetch("http://localhost:3000/takhfif");
-  const res = await data.json();
-  return res;
-});
+export const fetchTakhfif = createAsyncThunk(
+  "/takhfif/fetchTakhfif",
+  async () => {
+    const data = await fetch(
+      "https://my-json-server.typicode.com/seyedmehdii/myData/takhfif"
+    );
+    const res = await data.json();
+    return res;
+  }
+);
 
 const TakhfifSlice = createSlice({
   name: "takhfif",

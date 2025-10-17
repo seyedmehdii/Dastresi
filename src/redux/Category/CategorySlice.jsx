@@ -2,7 +2,9 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchCategory = createAsyncThunk(
   "/category/fetchCategory",
   async () => {
-    const data = await fetch("http://localhost:3000/category");
+    const data = await fetch(
+      "https://my-json-server.typicode.com/seyedmehdii/myData/category"
+    );
     const res = await data.json();
     return res;
   }

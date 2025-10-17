@@ -2,7 +2,9 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchPopular = createAsyncThunk(
   "/popular/fetchPopular",
   async () => {
-    const data = await fetch("http://localhost:3000/popular");
+    const data = await fetch(
+      "https://my-json-server.typicode.com/seyedmehdii/myData/popular"
+    );
     const res = await data.json();
     return res;
   }
